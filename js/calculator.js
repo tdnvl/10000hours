@@ -32,7 +32,7 @@ function calculateThatShit() {
 function tweetThatShit() {
     "use strict";
     console.log(years);
-    url = encodeURIComponent('http://10000hourscalculator.com');
+    url = encodeURIComponent('https://10000hours.netlify.com/');
     intent = encodeURIComponent('It will take me ' + years + ' years to master ' + topic + '. The year will be ' + z + '. Calculate your goal year at ');
     twitlink = 'https://twitter.com/intent/tweet?text=' + intent + '&url=' + url + '&hashtags=' + '10000hours';
     $('#twittershare').attr('href', twitlink);
