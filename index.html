@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>10,000 hours calculator</title>
+    
+    <!-- Facebook Open Graph -->
+    
+    <meta property="og:title" content="How long is the road to mastery?">
+    <meta property="og:site_name" content="10,000 Hours Calculator">
+    <meta property="og:url" content="http://10000hourscalculator.com">
+    <meta property="og:description" content="The 10,000-hour rule, based on a study by Anders Ericsson, states that mastery comes after practicing a specific task for 10,000 hours. How long will it take you to achieve greatness?">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://www.thomasdeneuville.com/10000hours/img/10000-hours-open-graph.jpg">
+    
+    <!-- Twitter Card -->
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@tdnvl">
+    <meta name="twitter:title" content="10,000 Hours Calculator">
+    <meta name="twitter:description" content="The 10,000-hour rule, based on a study by Anders Ericsson, states that mastery comes after practicing a specific task for 10,000 hours. How long will it take you to achieve greatness?">
+    <meta name="twitter:image:src" content="http://www.thomasdeneuville.com/10000hours/img/10000-hours-open-graph.jpg">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+        <script src="js/calculator.js"></script>
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65853433-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <!-- nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-calculator"></i>  <span class="light">10,000 hours calculator</span>
+                </a>
+            </div -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section 
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#calculate">Calculate</a>
+                    </li>
+                </ul>
+            </div -->
+            <!-- /.navbar-collapse 
+        </div>
+        <!-- /.container 
+    </nav -->
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">10,000 hours calculator</h1>
+                        <p class="intro-text"><em>How long is the road to mastery?</em></p>
+                        <p>The central idea in <a href="http://www.amazon.com/gp/product/0316017930/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0316017930&linkCode=as2&tag=thomadeneu-20&linkId=667VID7DHUQINBLW" target="_blank" style="color: #fff; text-decoration: underline;" onclick="ga('send', 'event', { eventCategory: 'Amazon', eventAction: 'clicked'})">Malcom Gladwell's <em>Outliers</em></a> is the 10,000-hour rule.<br/>Based on a study by Anders Ericsson, the rule states that mastery comes after practicing a specific task for 10,000 hours. How long will it take <em>you</em> to achieve greatness?</p>
+                        <a href="#calculate" class="btn btn-circle page-scroll">
+                            <i class="fa fa-question animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="calculate" class="container content-section text-center">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                
+        
+                
+				
+                <form role="form">
+                <div class="form-group">
+                <label for="topic" style="font-weight: 400; font-size:20px;"><em>What do you want to master?</em></label>
+                    <div class="col-md-4 col-md-offset-4">
+                    <input type="text" class="form-control" id="topic">
+                    </div>
+                </div>
+                    <div class="row">
+                        <p>&nbsp;</p>
+                    </div>
+                <div class="form-group">
+                <label for="hours" style="font-weight: 400; font-size:20px;"><em>How many hours a day can you spend?</em></label>
+                    <div class="col-md-4 col-md-offset-4">
+                    <input type="text" class="form-control" id="hours">
+                    </div>
+                </div>
+                </form>
+                <p>&nbsp;</p>
+				<a href="#results" onclick="calculateThatShit(); ga('send', 'event', { eventCategory: 'calculator', eventAction: 'clicked','eventLabel': topic})" class="btn btn-default btn-lg">CALCULATE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-6 col-md-offset-3" id="results">
+                    <h2 id="demo"></h2>
+                    <p><em>Share your result</em></p>
+                    <a id="twittershare" href="#" target="_blank" class="btn btn-default btn-lg" onclick="tweetThatShit(); ga('send', 'event', { eventCategory: 'Twitter', eventAction: 'shared'})"><i class="fa fa-twitter"></i> Tweet</a>
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <h6>Copyright &copy; <a href="http://thomasdeneuville.com" target="_blank" style="color: #FFFFFF !important;">Thomas Deneuville 2015</a></h6>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>
